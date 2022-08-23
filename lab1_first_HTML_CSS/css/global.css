@@ -1,0 +1,74 @@
+body{
+    font-family: "Arial";
+    background-color: #fff;
+    color: #7D7987;
+} 
+
+.container{
+    align-self: center;
+    max-width: 1300px; ;
+    margin: 0 auto;
+}
+
+li{
+   display: block;
+}
+
+a{
+    color: #7D7987;
+    text-decoration: none;
+}
+
+button{
+    border: 0;
+}
+
+
+/*--Button most common--*/
+.button{
+    border-radius: 50px;
+    border: 2px solid #458FF6;
+    color: #458FF6;
+    background: transparent;    
+    font-size: large;
+    font-weight: 500;
+    width: 200px;
+    height: 56px;
+}
+
+
+/*--Dividers  --*/
+.line-divider{
+    border-radius: 50px;
+    width: 56px;
+    height: 2px;
+}
+.line-divider--black{
+    background-color: black;
+}
+.line-divider--white{
+    background-color: white;
+}
+
+
+/*--Titles--*/
+.title{
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: black;
+    line-height: 3rem;
+} 
+.title2 {
+    font-weight: 600;
+    font-size: 1.35em;
+    line-height: 1.5rem;
+    color: black;
+}
+
+
+/*--Paragraph (p)--*/
+.paragraph{
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #7D7987;
+}

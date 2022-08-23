@@ -1,0 +1,36 @@
+.footer{
+    background: url("../images/dotsBackgroundWhite.svg") no-repeat left bottom,
+    linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    border:solid 2px #5A98F2;
+    margin-top: 1em; 
+}
+
+.footer__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 3em;
+}
+
+.footer__nav{
+    display: flex;
+}
+
+.footer__nav>.footer__unordered-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__unordered-list>.footer__list{
+    margin: 0 4em;
+}
+
+.footer__list> a{
+    font-weight: 600;
+    font-size: 1.35em;
+    line-height: 1.5rem;
+    color: white;
+}
