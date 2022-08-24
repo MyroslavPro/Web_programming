@@ -1,0 +1,47 @@
+.hero__container
+{
+    background: url(../images/dotsBackgroundBlue.svg) no-repeat right bottom; 
+    padding-bottom: 90px;
+    margin-bottom: 30px;
+}
+
+.hero__inner{
+    padding-top: 194px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+
+.hero__content{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+
+.hero__tittle{
+    max-width: 242px;
+}
+
+.hero__content>.line-divider--black{
+    margin-top: 32px;
+}
+
+.hero__paragraph{
+    margin-top: 40px;
+    max-width: 360px;
+}
+
+.hero__button{
+    margin-top: 44px;
+}
+
+
+.hero__image{
+    padding-right: 60px;
+}

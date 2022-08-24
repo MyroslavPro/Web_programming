@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 33px;
+    padding-top: 33px;
+}
+.header__nav{
+    display: flex;
+}
+.header__nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #7D7987;
+}
+.header__nav>ul>li{
+    margin: 1em;
+    font-size: larger;
+}
+
+.header__logo{
+    margin: 1em;
+}

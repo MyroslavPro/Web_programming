@@ -1,0 +1,117 @@
+.review{
+    display: flex;
+    background-color: #F3F8FE;
+}
+
+.review__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self:center;
+    justify-content: space-between;
+    padding: 140px 0; 
+}
+
+
+.review__article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1120px;
+    border-radius: 25px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%) ;
+    padding: 120px 80px 50px 80px;
+}
+
+
+/*-- Inside article --*/
+.article__inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article__inner>*{
+    margin: 4em 3em;
+}
+
+
+/*--Personal information of client and opinion--*/
+.personal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.personal>img{
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.personal__about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+}
+/* Line in article --white*/
+#line-white-footer{
+    margin-top: 2em;
+}
+
+/*Changing color of text*/
+.title--white{
+    color: white;
+}
+.title2--white{
+    color: white;
+    opacity: 0.85;
+}
+.paragraph--white{
+    color: white;
+    opacity: 0.85;
+}
+
+/*--Review navigation (switching between reviews)--*/
+.review__nav{
+    margin-top: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.review__nav>ol{
+    display: flex;
+    flex-direction: row;
+    padding:0 5em;
+}
+
+.review__nav>ol>li{
+    margin: 0.5em;
+    display: flex;
+    align-self: center;
+}
+
+/* Buttons-(swithers) */
+.review__nav> button{
+    align-self:center;
+}
+
+.review__button--arrow{
+    background: transparent;    
+}
+
+.review__button--litte-blue{
+    background-color: #5B9BF3;
+    border-radius: 50%; 
+    opacity: 0.3;
+    width: 10px;
+    height:10px;
+}
+
+
+
