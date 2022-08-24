@@ -14,6 +14,3 @@ Requirements:
 
 Design Variant5:
 [Click to view my variant in Figma](https://www.figma.com/file/bW1PzYlXgABwctUobkRAyA/LabWork1-V5)
-
-
-![ffffff](figmaDesignV5.jpg)
