@@ -1,0 +1,84 @@
+.hero__container
+{
+    background: url(../images/dotsBackgroundBlue.svg) no-repeat right bottom; 
+    padding-bottom: 6em;
+    margin-bottom: 2em;
+}
+
+.hero__inner{
+    padding-top: 12em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+
+.hero__content{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+
+.hero__tittle{
+    max-width: 242px;
+}
+
+.hero__content>.line-divider--black{
+    margin-top: 2em;
+}
+
+.hero__paragraph{
+    margin-top: 2em;
+    max-width: 360px;
+}
+
+.hero__button{
+    margin-top: 44px;
+}
+
+.hero__image{
+    padding-right: 60px;
+}
+
+
+@media screen and (max-width:1120px) {
+    .hero__container{
+        background: rgba(166, 213, 229, 0.1);
+    }
+    .hero__inner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .hero__image {
+        display: none;
+    }
+    .hero__content{
+        align-self: center;
+    }
+}
+
+@media screen and  (min-width: 768px) and (max-width:1120px){
+    .hero__inner{
+    padding-top: 3em;
+    }
+}
+
+@media screen  and  (max-width: 768px){
+    .hero__content{
+        align-items: center;
+    }
+    
+    .hero__paragraph{
+        text-align: justify;
+        
+    }
+    .hero__paragraph> br{
+        display: none;
+    }
+}  

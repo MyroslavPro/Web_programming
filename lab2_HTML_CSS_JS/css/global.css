@@ -1,0 +1,98 @@
+body{
+    font-family: "Arial";
+    background-color: #fff;
+    color: #7D7987;
+} 
+
+.container{
+    align-self: center; 
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+li{
+   display: block;
+}
+
+a{
+    color: #7D7987;
+    text-decoration: none;
+}
+
+button{
+    border: 0;
+}
+
+
+/*--Button most common--*/
+.button{
+    border-radius: 50px;
+    border: 2px solid #458FF6;
+    color: #458FF6;
+    background: transparent;    
+    font-size: large;
+    font-weight: 500;
+    width: 200px;
+    height: 56px;
+}
+
+.button:hover{
+    background-color: #458FF6;
+    color: whitesmoke;
+    box-shadow: 2px 5px 1em #7D7987;
+    transition: 0.5s;
+}
+.button:not(:hover){
+    transition: 1s;
+}
+
+
+/*--Dividers  --*/
+.line-divider{
+    border-radius: 50em;
+    width: 3.5em;
+    height: 2px;
+}
+.line-divider--black{
+    background-color: black;
+}
+.line-divider--white{
+    background-color: white;
+}
+
+
+/*--Titles--*/
+.title{
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 3rem;
+    color: black;
+} 
+.title2 {
+    font-weight: 600;
+    font-size: 1.35em;
+    line-height: 1.5em;
+    color: black;
+}
+
+
+/*--Paragraph (p)--*/
+.paragraph{
+    font-size: 1em;
+    line-height: 1.75em;
+    color: #7D7987;
+}
+
+
+@media screen and (max-width: 768px){ 
+    .title{
+        text-align: center;}
+}
+
+@media screen and (max-width:1120px) {
+    .button{
+        background-color: #458FF6;
+        color: whitesmoke;
+    }
+}
