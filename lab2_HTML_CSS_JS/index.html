@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafalgar</title>
+
+    <!-- Arial font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"
+    rel="stylesheet">
+    <!-- Global css source -->
+    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <section class="hero">
+        <div class="container">
+            <header class="header hero__header" id="header">
+                <div id="header-menu"  class="header__menu" onclick="toggleMenu()">
+                    <img class="menu-open" src="images/openMenu.svg" alt="Menu icon"> 
+                    <img class="menu-close" src="images/closeMenu.svg" alt="Menu icon"> 
+                </div>
+                <nav id="nav-links" class="header__nav" >
+                    <ul>
+                        <li><a class="header__nav-item" href="">Home</a></li>
+                        <li><a class="header__nav-item" href="">Find a doctor</a></li>
+                        <li><a class="header__nav-item" href="">Apps</a></li>
+                        <li><a class="header__nav-item" href="">Testimonials</a></li>
+                        <li><a class="header__nav-item" href="">About us</a></li>
+                    </ul>
+                </nav>
+                <div class="header__logo">
+                    <img src="./images/logoInBlackNormal.svg" alt="logo Trafalgar">
+                </div>
+            </header>
+        </div>
+        <div class="container hero__container">
+            <div class="hero__inner">
+                    <div class="hero__content">
+                        <h1 class="title hero__tittle">Download our mobile apps</h1>
+                        <div class="line-divider line-divider--black"></div>
+                        <p class = "paragraph hero__paragraph">Our dedicated patient engagement app and <br>web
+                        portal allow you to access information instantaneously 
+                        (no tedeous form, long calls,<br>or administrative hassle) and securely
+                        </p>
+                        <button class="button hero__button">Download &#8595</button>
+                    </div>
+                    <img class="hero__image" src="./images/heroImage.svg" alt="image of happy customers of our app">
+            </div>
+        </div>
+    </section>
+
+    <section class="newswall">
+        <div class="container newswall__container">
+            <h1 class="title">Check out our latest article</h1>
+            <div class="line-divider line-divider--black"></div>
+            <div class="newswall__wrapper">    
+                <article class="newswall__article" id="article1"> 
+                    <div class="newswall__article__content" >
+                        <h2 class="title2">Disease detection, check<br>
+                            up in the laboratory</h2>
+                        <p class="paragraph">
+                            In this case, the role of the health<br>
+                            laboratory is very important to do<br>
+                            a disease detection...
+                        </p>
+                        <a class="newswall__hyperlink" href="">Read more &#8594</a>
+                    </div>
+                </article>
+                <article class="newswall__article" id="article2">
+                    <div class="newswall__article__content">
+                        <h2 class="title2">
+                            Herbal medicines that are<br>
+                            safe for consumption
+                        </h2>
+                        <p class="paragraph">
+                            Herbal medicine is very widely used<br>
+                            at this time because of its very good<br> 
+                            for your health...
+                        </p>
+                        <a class="newswall__hyperlink" href="">Read more &#8594</a>
+                    </div>
+                </article>
+                <article class="newswall__article" id="article3">
+                    <div class="newswall__article__content" >
+                        <h2 class="title2"> Natural care for healthy<br>
+                            facial skin</h2>
+                        <p class="paragraph">
+                            A healthy lifestyle should start from<br>
+                            now and also for your skin health.<br> 
+                            There are some...
+                        </p>
+                        <a class="newswall__hyperlink" href="">Read more &#8594</a>
+                    </div>
+                </article>
+            </div>
+            <button class="button newswall__button">View all</button>
+        </div>
+    </section>
+
+    <section class="review">
+        <div class="container review__container">
+            <article class="review__article">
+                <h1 class="title title--white">What our customer are saying </h1>
+                <div class="line-divider line-divider--white"></div>
+                <div class="article__inner current" id="review0">
+                    <div class="article__personal personal">
+                        <img src="./images/EdwardNewgate.png" alt="Edward Newgate">
+                        <div class="personal__about">    
+                            <h2 class="title2 title2--white">Edward Newgate</h2>
+                            <p class="paragraph paragraph--white">Founder Circle</p>
+                        </div>
+                    </div>       
+                    <p class="paragraph paragraph--white">
+                        “Our dedicated patient engagement app and<br>
+                        web portal allow you to access information<br>
+                        instantaneously (no tedeous form, long calls,<br>
+                        or administrative hassle) and securely”
+                    </p>
+                </div>
+                <div class="article__inner" id="review1">
+                    <div class="article__personal personal">
+                        <img src="./images/MarkWatson.jpg" alt="Mark Watson" style="width: 133px;">
+                        <div class="personal__about">    
+                            <h2 class="title2 title2--white">Mark Watson</h2>
+                            <p class="paragraph paragraph--white">CEO Space</p>
+                        </div>
+                    </div>       
+                    <p class="paragraph paragraph--white">
+                        “Wow... I am very happy to use this app,<br>
+                        it turned out to be more than my<br>
+                        expectations and so far there have<br>
+                        been no problems."
+                    </p>
+                </div>
+                <div class="article__inner" id="review2">
+                    <div class="article__personal personal">
+                        <img src="./images/EmmaGray.jpg" alt="Emma Gray" style="width: 133px;">
+                        <div class="personal__about">    
+                            <h2 class="title2 title2--white">Emma Gray</h2>
+                            <p class="paragraph paragraph--white">GSU Professor</p>
+                        </div>
+                    </div>       
+                    <p class="paragraph paragraph--white">
+                        "I like it because I can really rely on<br>
+                        this app. This helps me to stay in touch<br>
+                        with my doctors. Awesome staff"
+                    </p>
+                </div>
+                <div class="article__inner" id="review3">
+                    <div class="article__personal personal">
+                        <img src="./images/IoanSmith.jpg" alt="IoanSmith" style="width: 133px;">
+                        <div class="personal__about">    
+                            <h2 class="title2 title2--white">Ioan Smith</h2>
+                            <p class="paragraph paragraph--white">Fun Guy</p>
+                        </div>
+                    </div>       
+                    <p class="paragraph paragraph--white">
+                        "I've tried a lot of apps with a similar purpose<br>
+                        but thi is by far the best. Easy to use, highly <br>
+                        informative, and beautiful graphics."
+                    </p>
+                </div>
+            </article>
+            
+            <nav class="review__nav nav">
+                <button class="review__button--arrow"  id="left-arrow" onclick="switchLeft()">
+                    <img src="./images/arrowLeft.svg" alt="left arrow" >
+                </button>
+                <ol>
+                    <li><button class="review__button--litte-blue" onclick="reviewSwitch(0)"></button></li>
+                    <li><button class="review__button--litte-blue" onclick="reviewSwitch(1)"></button></li>
+                    <li><button class="review__button--litte-blue" onclick="reviewSwitch(2)"></button></li>
+                    <li><button class="review__button--litte-blue" onclick="reviewSwitch(3)"></button></li>
+                </ol>
+                <button class="review__button--arrow" id="right-arrow" onclick="switchRight()">
+                    <img src="./images/arrowRight.svg" alt="right arrow">
+                </button>
+            </nav>
+        </div>
+    </section>
+
+    <footer class="footer">
+            <div class="container footer__container">
+                    <div class="footer__logo">
+                        <img src="./images/logoInWhite.svg" alt="logo Trafalgar">
+                    </div>
+
+                     <nav class="footer__nav">
+                        <ul class="footer__unordered-list">
+                            <li class="footer__list"><a href="#header">Company</a></li>
+                            <li class="footer__list"><a href="">Region</a></li>
+                            <li class="footer__list"><a href="">Help</a></li>
+                        </ul>
+                    </nav>
+            </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
