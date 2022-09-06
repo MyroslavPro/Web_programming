@@ -1,0 +1,31 @@
+.items-manager {
+    width: 20em;
+    padding: 1em;
+}
+
+.items-manager>*{
+    margin: 1.5em 0;
+}
+
+
+.items-manager__title{
+    margin-bottom: 0.75em;
+    align-self: center;
+} 
+
+.items-manager__button{
+    background-color: #F53838;;
+    width: 16em;
+    padding: 1.5em;
+    font-weight: bolder;
+    box-shadow: 0 30px 34px -20px rgba(245, 56, 56, 0.35);   
+    align-self: center;
+}
+
+.items-manager__sort {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom:1px solid #5d5c5c50;
+    padding-bottom: 1em;
+}
