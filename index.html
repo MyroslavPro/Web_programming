@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items Storage</title>
+    <link rel="shortcut icon" href="#">
+    
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap">
+    
+    <!-- Importing css styles-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <img src="images/itemsLogo.png" alt="Items logo" width="110px" >
+            <ul>
+                <li><button class="button button-switch" id="home-button">Home</button></li>
+                <li><button class="button button-switch" id="create-item-button">Create Item</button></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <label type="text" style="color:white; font-size: larger;">Search by name </label>
+            <input type="text" name="search-input" id="search-input" placeholder="Type something...">
+            <button type="button" class="find__button--search button" id="search-button">Search</button>                
+            <button type="button" class="find__button--clear button" id="clear-button">Clear</button>
+        </div>
+    </header>
+    <section id="home-sctn" class="section items-section open">
+        <div class="items-section__form">
+            <form class="form items-manager">
+                <h1 class="items-manager__title">Manage Items</h1>
+                <div class="items-manager__sort sort">
+                    <h3>Sort by the most<br>
+                        expensive items</h3>
+                    <input type="checkbox" id="sort-checkbox">
+                </div>
+                <h3>Count total price of items:</h3>
+                <button class="items-manager__button button" id="count-button" type="button">Count</button>
+                <div>
+                    Total price: <span style="font-weight:600;" id="sum-price">0</span>$
+                </div>
+            </form>
+        </div>
+        <ul id="items-container" class="items__container">
+        </ul>    
+    </section>
+    <section id="create-item-sctn" class="create-item-section">
+        <form>
+            <h1>Create Card</h1>
+            <div class="form-group">
+              <label for="InputName" class="form__label">Name</label>
+              <input type="text" class="form-control--create" id="create-name-input"/>
+            </div>
+            <div class="form-group">
+              <label for="InputPrice" class="form__label">Price($)</label>
+              <input type="number" step="0.01" class="form-control--create" id="create-price-input" />
+            </div>
+            <div class="form-group">
+                <label for="InputCountry" class="form__label">Origin</label>
+                <input type="text" class="form-control--create" id="create-country-input"/>
+            </div>
+            <div class="form-group">
+                <label for="InputProvider" class="form__label">Provider</label>
+                <input type="text" class="form-control--create" id="create-provider-input" />
+            </div>
+            <button id="submit-button" type="submit" class="submit__button button">
+                Submit
+            </button>
+        </form>
+    </section>
+    <section id="edit-sctn" class="edit-section">
+        <form id="modal-edit" class="modal-edit-form">
+            <h1>Edit Card</h1>
+            <div class="form-group">
+              <label for="InputName" class="form__label">Name</label>
+              <input type="text" class="form-control--edit" id="edit-name-input"/>
+            </div>
+            <div class="form-group">
+              <label for="InputPrice" class="form__label">Price($)</label>
+              <input type="number" step="0.01" class="form-control--edit" id="edit-price-input" />
+            </div>
+            <div class="form-group">
+                <label for="InputCountry" class="form__label">Origin</label>
+                <input type="text" class="form-control--edit" id="edit-country-input"/>
+            </div>
+            <div class="form-group">
+                <label for="InputProvider" class="form__label">Provider</label>
+                <input type="text" class="form-control--edit" id="edit-provider-input" />
+            </div>
+            <button id="edit-button" type="submit" class="button submit__button" style="background:linear-gradient( 60deg, #3b8dec,40%,#0d66ff);box-shadow: 0 30px 34px -20px rgba(21, 157, 249, 0.35);">
+                Edit
+            </button>
+        </form>
+    <section>
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
