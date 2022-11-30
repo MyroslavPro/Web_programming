@@ -1,0 +1,17 @@
+.view-more{
+    background-color: darkslategray;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    border: 0;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    justify-content: center;   
+    align-self: center;
+}
+
+.white{
+    background-color: white;
+    color: darkslategray;
+    border: 1px solid darkslategray;
+}
